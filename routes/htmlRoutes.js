@@ -17,12 +17,14 @@ module.exports = function (app) {
 		res.render("signup", {
 			error: req.session.error
 		});
+		delete req.session.error;
 	});
 	app.get("/signin", function (req, res) {
 		console.log(req.session.error);
 		res.render("signin", {
 			error: req.session.error
 		});
+		delete req.session.error;
 	});
 	app.get("/logout", function (req, res) {
 		req.session.destroy(function () {
