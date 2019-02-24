@@ -10,7 +10,7 @@ $("#addAPlant").on("click", function (event) {
 
 	// if no names provided
 	if (plantName.length === 0 && personalName.length === 0) {
-		return alert("To add a plant, you must enter a common/scientific name or a personal name")
+		return alert("To add a plant, you must enter a common/scientific name or a personal name");
 	}
 
 	// if no common or scientific name

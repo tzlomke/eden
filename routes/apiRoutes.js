@@ -35,16 +35,6 @@ module.exports = function (app) {
 		});
 	});
 
-	// Get All Users
-	app.get("/api/users", function (req, res) {
-		db.User.findAll({
-			include: [db.Plant]
-		}).then(function (dbUser) {
-			res.json(dbUser);
-		});
-	});
-
-
 	// Delete Event by ID
 	app.delete("/api/events/:id&:event_name&:event_type", function(req, res) {
 		db.Event.destroy({
