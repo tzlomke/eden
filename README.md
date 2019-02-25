@@ -1,28 +1,25 @@
-# eden
- - Eden is an application that allows users to create an online "garden." Users will be able to use this online garden to manage their real life garden by creating watering schedules, getting info on specific plant species from the database, and potentially by asking for tips on the user forum
+# Eden
+Eden is a full-stack garden-management application enabling users to more efficiently care for all of their plants, whether their plot spans acres or a windowsill in their apartment. Users can access the database to add plants to their digital garden, obtain in-depth knowledge on a massive variety of plant species, and create care schedules for the plants in their garden.
 
- - This app was created during Module  15/16 of the Denver University  bootcamp cohort 2018-2019. It is a full-stack, Gardening and Planting appp that is built with Node, Express, Handlebars, ORM, MySQL, Nightmare/Mocha/Chai, Heroku, and uses the MVC design pattern.
+The application is built on a Node.js/Express platform and uses Sequelize to power it's MySQL database. Passport.js and bCrypt-js are employed to handle user-authentication and secure sensitive data. Cheerio.js and Axios work in conjunction to scrape plant species data from https://garden.org and store it to the database. Eden uses MVC design principles and Handlebars.js as a view engine and templating framework.
 
-# Live Site Link:
- - See app: TBD
+## Deployed Application
+https://powerful-lowlands-42478.herokuapp.com/
 
-# Screen Shots
- - TBD
+![Landing Page](public/images/eden.png)
 
-# Technologies that will be used
- - Node.js - https://nodejs.org/en/
- - Express.js - https://expressjs.com/
- - Handlebars - http://handlebarsjs.com/
- - MySQL - https://www.mysql.com/
- - Firebase - https://firebase.google.com/
- - Heroku - https://www.heroku.com/
- - Express NPM Package - https://www.npmjs.com/package/express
- - Express-Handlebars NPM Package - https://www.npmjs.com/package/express-handlebars
- - MySQL NPM Package - https://www.npmjs.com/package/mysql
- - TBD-----------
+### Technologies and Dependencies
+- Node.js - https://nodejs.org/en/
+- Express.js - https://expressjs.com/
+- MySQL - https://www.mysql.com/
+- Sequelize - http://docs.sequelizejs.com/
+- Passport.js - http://www.passportjs.org/
+- bCrypt - https://www.npmjs.com/package/bcrypt-nodejs
+- Cheerio.js - https://cheerio.js.org/
+- Axios - https://www.npmjs.com/package/axios
+- Handlebars - http://handlebarsjs.com/
 
-
-# DEVELOPERS:
- - Daniel Lois : https://github.com/funkedee
- - Taylor Zlomke: https://github.com/tzlomke 
- - Yeshu Gaire: https://github.com/yeshugaire
+### DEVELOPERS
+- Daniel Lois | https://github.com/funkedee
+- Taylor Zlomke | https://github.com/tzlomke 
+- Yeshu Gaire | https://github.com/yeshugaire
